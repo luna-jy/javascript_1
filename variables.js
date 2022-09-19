@@ -28,3 +28,4 @@ console.log(k);
 var kk= 1000;
 console.log(kk);
         //일반적인 자바스크립트 타입 -> ES2015(ES6) 추가된  Symbol(), Class도 있음. .'use strict'; 사용시~
+        //여기서 말하는 symbol은 ~
