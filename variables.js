@@ -14,6 +14,9 @@ let d = "t"; //string
 let e = false; //boolean
 let f = null; //NULL
 let g; // Undefined (변수는 선언했지만, 값을 대입/할당하지 않은 상태)
+console.log("g의 자료형 : "+g);
+
+
 let h  = [1,2,3]; //Array
 let i = {
           name: 'seon', 
@@ -23,9 +26,9 @@ let i = {
 let j = function () {
             console.log('hello javascript world');
         } //function
-k = 100; 
+let k = 100; 
 console.log(k);
-var kk= 1000;
+let kk= 1000;
 console.log(kk);
         //일반적인 자바스크립트 타입 -> ES2015(ES6) 추가된  Symbol(), Class도 있음. .'use strict'; 사용시~
         //여기서 말하는 symbol은 ~
